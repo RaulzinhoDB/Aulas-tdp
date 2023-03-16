@@ -1,0 +1,28 @@
+git pull - verifica se a versao do repositorio é a ultima, se nao for, ele vai baixar.
+git clone "https://github.com/RaulzinhoDB/Cruzeiro-do-Sul-SM---TDP-1-Sem.git"
+git add " ." - 
+
+___________________________________________________________________________________________
+			CRIAR UM NOVO REPOSITORIO
+git init
+
+git status
+
+git branch -m master main
+
+____________________________________________________________________________
+			ADICIONAR UM ARQUIVO AO REPOSITORIO
+
+git add Aula09032023(caso seja algo especifico)
+
+git add " ."
+
+git commit -m "Adicionando pasta Aula09032023"
+
+git remote add origin https://github.com/RaulzinhoDB/Aulas-tdp.git
+
+git branch -M main
+
+git push -u origin main
+
+________________________________________________________________________________________
