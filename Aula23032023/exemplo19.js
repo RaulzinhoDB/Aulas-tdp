@@ -14,6 +14,15 @@ class Livro{
     }
 }
 
-var obj_livro1 = new Livro("Use a cabeça Java", 500.00)
-obj_livro1.calcularDesconto(10)
-console.log("O livro: "+ obj_livro1.nome + ", tem o valor é de: R$ " + obj_livro1.preco)
+var obj_livro1 = new Livro("To com fome", 120)
+var obj_livro2 = new Livro("Quero queijo", 180)
+
+var lista = []
+
+lista.push(obj_livro1)
+lista.push(obj_livro2)
+
+//console.log(lista[0])
+//console.log(lista[1])
+
+console.log(lista)
